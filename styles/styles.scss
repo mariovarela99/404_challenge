@@ -1,0 +1,119 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+header.main-header {
+  width: 95%;
+  margin: 0 auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+  padding: 10px 15px;
+
+  h2 {
+    display: flex;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 25, 18px;
+    color: #333333;
+  }
+}
+
+main.main-main {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px auto 100px;
+
+  section.main-section {
+    width: 90%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    div.image-div {
+      width: 360px;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    div.text-div {
+      width: 50%;
+      display: flex;
+      align-items: flex-start;
+      flex-direction: column;
+      justify-content: flex-start;
+
+      h1.title-bad {
+        font-size: 64px;
+        font-weight: 700;
+        line-height: 94.78px;
+        font-family: "monospace";
+        color: #333333;
+        font-style: normal;
+      }
+
+      p.the-p {
+        size: 24px;
+        line-height: 35.54px;
+        font-weight: 400;
+        font-family: "monospace";
+        color: #4f4f4f;
+        font-style: normal;
+      }
+
+      a.back {
+        width: 216px;
+        height: 68px;
+        background-color: #333333;
+        color: #ffffff;
+        letter-spacing: 0.035em;
+        line-height: 21px;
+        font-size: 14px;
+        font-style: normal;
+        text-transform: uppercase;
+        text-decoration: none;
+        margin-top: 75px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+  }
+}
+
+footer.main-footer {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  p {
+    color: #bdbdbd;
+    font-size: 14px;
+    line-height: 17px;
+    font-style: normal;
+    font-family: monospace;
+    font-weight: 500;
+    text-decoration: none;
+  }
+}

@@ -1,0 +1,159 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header.main-header {
+  width: 95%;
+  margin: 0 auto;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding: 10px 15px;
+}
+
+header.main-header h2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 25, 18px;
+  color: #333333;
+}
+
+main.main-main {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 50px auto 100px;
+}
+
+main.main-main section.main-section {
+  width: 90%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+main.main-main section.main-section div.image-div {
+  width: 360px;
+}
+
+main.main-main section.main-section div.image-div img {
+  width: 100%;
+}
+
+main.main-main section.main-section div.text-div {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+main.main-main section.main-section div.text-div h1.title-bad {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 94.78px;
+  font-family: "monospace";
+  color: #333333;
+  font-style: normal;
+}
+
+main.main-main section.main-section div.text-div p.the-p {
+  size: 24px;
+  line-height: 35.54px;
+  font-weight: 400;
+  font-family: "monospace";
+  color: #4f4f4f;
+  font-style: normal;
+}
+
+main.main-main section.main-section div.text-div a.back {
+  width: 216px;
+  height: 68px;
+  background-color: #333333;
+  color: #ffffff;
+  letter-spacing: 0.035em;
+  line-height: 21px;
+  font-size: 14px;
+  font-style: normal;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-top: 75px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer.main-footer {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer.main-footer p {
+  color: #bdbdbd;
+  font-size: 14px;
+  line-height: 17px;
+  font-style: normal;
+  font-family: monospace;
+  font-weight: 500;
+  text-decoration: none;
+}
+/*# sourceMappingURL=styles.css.map */
