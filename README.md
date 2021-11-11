@@ -24,15 +24,15 @@
 
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
+![screenshot](./assets/result.png)
 
 ### Built With
 
-- [HTML](https://html.org/)
-- [Sass](https://sass.org/)
+- HTML
+- Sass
 
 ## Contact
 
-- Website [your-website.com](https://{mariovarela99/me.io})
-- GitHub [@your-username](https://{github.com/mariovarela99})
-- Twitter [@your-twitter](https://{twitter.com/mariovarela4})
+- Website [mariovarela99.com](https://{mariovarela99/me.io})
+- GitHub [@mariovarela99](https://{github.com/mariovarela99})
+- Twitter [@MarioVarela4](https://{twitter.com/mariovarela4})
