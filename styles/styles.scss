@@ -52,7 +52,7 @@ main.main-main {
     justify-content: space-around;
 
     div.image-div {
-      width: 360px;
+      width: 400px;
 
       img {
         width: 100%;
@@ -120,5 +120,24 @@ footer.main-footer {
     font-family: monospace;
     font-weight: 500;
     text-decoration: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  main.main-main {
+    section.main-section {
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-start;
+
+      div.image-div {
+        margin: 0 auto;
+        width: 90%;
+      }
+
+      div.text-div {
+        width: 100%;
+      }
+    }
   }
 }
