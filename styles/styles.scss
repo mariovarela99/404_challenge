@@ -1,3 +1,8 @@
+$primary: #333333;
+$gray1: "#4f4f4f";
+$gray2: #bdbdbd;
+$white: #ffffff;
+
 body {
   font-family: "Poppins", sans-serif;
 }
@@ -27,7 +32,7 @@ header.main-header {
     font-weight: 700;
     font-size: 24px;
     line-height: 25, 18px;
-    color: #333333;
+    color: $primary;
   }
 }
 
@@ -66,7 +71,7 @@ main.main-main {
         font-weight: 700;
         line-height: 94.78px;
         font-family: "monospace";
-        color: #333333;
+        color: $primary;
         font-style: normal;
       }
 
@@ -75,15 +80,15 @@ main.main-main {
         line-height: 35.54px;
         font-weight: 400;
         font-family: "monospace";
-        color: #4f4f4f;
+        color: $gray1;
         font-style: normal;
       }
 
       a.back {
         width: 216px;
         height: 68px;
-        background-color: #333333;
-        color: #ffffff;
+        background-color: $primary;
+        color: $white;
         letter-spacing: 0.035em;
         line-height: 21px;
         font-size: 14px;
@@ -108,7 +113,7 @@ footer.main-footer {
   justify-content: center;
 
   p {
-    color: #bdbdbd;
+    color: $gray2;
     font-size: 14px;
     line-height: 17px;
     font-style: normal;
